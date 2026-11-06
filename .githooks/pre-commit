@@ -1,0 +1,4 @@
+#!/bin/sh
+# Block event-only snapshot, eval, harness, and archive paths.
+# Enable with: git config core.hooksPath .githooks
+exec python3 scripts/guard_staged_paths.py

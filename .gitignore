@@ -1,0 +1,37 @@
+# Evaluation material is event-only and must never be committed.
+snapshots/
+snapshots_zip/
+eval/
+harness/
+participant-kit/
+participant_kit/
+private-review/
+uploads/
+results/
+*.zip
+*.pdf
+*.jsonl
+*conflicts_gold*
+*public_eval*
+*proposed-tests*
+*qa-report*
+*temporal-evidence*
+*source-key.json*
+
+# Local environments and caches
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Editor / OS
+.idea/
+.vscode/
